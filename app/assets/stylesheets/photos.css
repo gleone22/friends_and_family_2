@@ -9,6 +9,11 @@ body {
   // text-align*/
 /*}*/
 
+body {
+  background-image: url("http://www.website-builder-review.info/files/theme/bodybg.jpg");
+}
+
+
 .photo {
   display: block;
   text-align: center;
