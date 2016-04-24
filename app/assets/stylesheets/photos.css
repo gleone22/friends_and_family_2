@@ -1,0 +1,23 @@
+/*// Place all the styles related to the photos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/*/
+/*
+body {
+  background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/7U5G4LUMEY.jpg");
+  /*color: white
+  display: block;
+  // text-align*/
+/*}*/
+
+.photo {
+  display: block;
+  text-align: center;
+}
+
+.photo img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+        box-shadow: 3px 3px 3px #777;
+}
