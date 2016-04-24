@@ -8,10 +8,11 @@ body {
   display: block;
   // text-align*/
 /*}*/
+/*
 
 body {
   background-image: url("http://www.website-builder-review.info/files/theme/bodybg.jpg");
-}
+}*/
 
 
 .photo {
@@ -25,4 +26,12 @@ body {
   -webkit-box-shadow: 3px 3px 3px #777;
   -moz-box-shadow: 3px 3px 3px #777;
         box-shadow: 3px 3px 3px #777;
+}
+
+html {
+ background: url(http://www.website-builder-review.info/files/theme/bodybg.jpg) no-repeat center center fixed;
+ webkit-background-size: cover;
+ moz-background-size: cover;
+ o-background-size: cover;
+ background-size: cover;
 }

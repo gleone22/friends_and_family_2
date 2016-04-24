@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   get 'photos' => 'photos#index'
   get 'welcome' => 'welcome#index'
+  get '/' => 'welcome#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
