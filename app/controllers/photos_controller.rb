@@ -1,15 +1,16 @@
 
 
 class PhotosController < ApplicationController
-require 'httparty'
-
-
 
 
   def index
-    lat = "34.0522"
-    long = "118.2437"
-    
+    require 'httparty'
+      # lat = params[:lat]
+      # long = params[:long]
+
+      lat = "34.0522"
+      long = "118.2437"
+
     base_url = "https://api.flickr.com/services/rest/"
 
     params = "?method=flickr.photos.search&api_key=0da305fa43a4c6834cfefe751fb703ea&lat=#{lat}&lon=#{long}&format=json&nojsoncallback=1"

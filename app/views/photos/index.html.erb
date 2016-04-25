@@ -1,8 +1,12 @@
-<%= @photo_set.each do |i| %>
+<% @photo_set.each do |i| %>
 <div class="photo">
-  <img src= <%= i %>>
+  <img src= <%= i %>
+  <% Photo.create(link: i) %>
 </div>
+
 <%end%>
+
+
 
 <div id="Wood_Panel">
   <img src="http://www.website-builder-review.info/files/theme/bodybg.jpg" alt="Wooden Panels">
